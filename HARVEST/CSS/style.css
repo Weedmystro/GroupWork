@@ -1,0 +1,267 @@
+
+ @import url('../css/colours.css');
+
+ body,
+ html {
+	 height: 100%;
+	 font-family: 'Roboto Slab', serif;
+	 overflow-x: hidden;
+	 scroll-behavior: smooth;
+	 transition: all 0.3s ease;
+ }
+ 
+ /* GENERAL STYLES */
+ .btn-orange {
+	 transition: background-color 0.5s ease;
+ }
+ .btn-orange:hover {
+	 background-color: var(--burntOrange);
+ }
+ .box-shadow {
+	 box-shadow: 0 0 26px 0px rgba(0, 0, 0, 0.10);
+ }
+ 
+ .br-0 {
+	 border-radius: 0px;
+ }
+ 
+ ul{
+	 list-style: none;
+ }
+ a:hover{
+	 text-decoration: none;
+ }
+ 
+ .btn {
+	 border-radius: 0px;
+	 width: 98px;
+	 /* height: 28px; */
+	 padding: 3px 0px;
+	 text-transform: uppercase;
+	 font-size: 14px;
+	 letter-spacing: 0.8px;
+ }
+ 
+ .paragraph {
+	 letter-spacing: 0.8px;
+ }
+
+ p {
+	 font-size: 13.5px;
+ }
+ 
+ .section-title {
+	 font-size: 1.4rem;
+ }
+ .sub-title {
+	 font-size: 18.5px;
+ }
+
+ .title, .btn {
+	 font-family: 'Amiri', serif;
+ }
+ 
+ /* .bg-white {
+	 background-color: white;
+ } */
+ 
+ /* END OF GENERAL STYLES */
+ 
+ 
+ /* NAVBAR */
+ .active {
+	 color: var(--international-orange-golden-gate-bridge);
+ }
+ nav {
+	 transition: all 0.5s ease-in-out;
+	 max-width: 100%;
+	 z-index: 1;
+ }
+ .navbar-brand {
+	 font-size: 1.4rem;
+ }
+ 
+ .nav-link {
+	 text-transform: uppercase;
+	 font-size: 12.5px;
+ }
+ 
+ .nav-link:hover {
+	 transform: scale(1.1,1.1);
+	 transition: all .1s ease-in-out;
+ }
+ 
+ nav .dropdown-menu .item {
+	 font-size: 12.5px;
+	 color: var(--black);
+ }
+ nav .dropdown-menu .item:hover {
+	 transition: all .5s ease-in-out;
+	 color: var(--white);
+	 background-color: var(--international-orange-golden-gate-bridge);
+	 opacity: 0.5;
+ }
+ .navbar-toggler .icon {
+	 font-size: 20px;
+ }
+ 
+ /* ./NAVBAR */
+ 
+ /* HERO SECTION */
+ .hero {
+	 height: 85vh;
+	 overflow: visible;
+	 /* background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(255, 255, 255, 0.2)),
+	 url('../img/p1.jpg'); */
+	 background-image:url('../Images/Image1.jpg');
+	 background-attachment: fixed;
+	 background-size: cover;
+	 background-position: center;
+	 background-repeat: no-repeat;
+ }
+ 
+ .hero .row{
+	 height: 85vh;
+ }
+ 
+ .hero h1{
+	 font-size: 2.6rem;
+ }
+ 
+ .hero p{
+	 font-size: 16px!important;
+ }
+
+
+ 
+ 
+ /* ./HERO SECTION */
+ 
+ 
+ /* FEATURED SECTION */
+ .featured .card-text {
+	 font-size: 14px;
+ }
+
+ /* .featured .card-box{
+	 width: 800px;
+ } */
+ .featured .card .card-body {
+	 padding: 2px 7px;
+	 margin-bottom: 50px;
+ }
+
+ .featured .card-body .d-flex p{
+	 font-size: 13.5px;
+	 margin-bottom: 50px;
+ }
+
+
+
+ .topright {
+	 position: absolute;
+	 right: 0px;
+	 font-size: 15px;
+ }
+ /* ./FEATURED SECTION */
+ 
+ 
+
+ /* SERVICES SECTION */
+ .services {
+	 background-color: var(--cultured);
+	 /* background: linear-gradient(180deg, blue 60%, #e9ecef 40%); */
+	 /* background-attachment: fixed; */
+ }
+ .services .card .icon {
+	 font-size: 30px;
+ }
+ /* ./SERVICES SECTION */
+ 
+
+ /* INDEX2.HTML */
+/* POPULAR SECTION SECTION */
+.search {
+	margin-top: 80px;
+}
+.search form input {
+	border-radius: 0px;
+}
+.tablink {
+	background-color: transparent;
+	color: black;
+	float: left;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 14px 16px;
+	font-size: 17px;
+	width: 10%;
+  }
+ /* ./POPULAR SECTION SECTION */ 
+
+ /* INDEX2.HTML */
+ 
+ /* MEDIA QUERIES */
+ /* 570px and down */
+ @media only screen and (max-width: 954px) {
+	 .hero h1{
+		 font-size: 1.8rem;
+	 }
+ 
+ }
+ @media only screen and (max-width: 380px) {
+	 .hero h1{
+		 font-size: 1.7rem;
+	 }
+	 
+	 .services {
+		 background-position: center;
+	 }
+ 
+ }
+ /*  */
+ 
+ @media only screen and (max-width: 991px) {
+	 nav .dropdown-menu {
+		 box-shadow: none;
+	 }
+ }
+ 
+ @media only screen and (min-width: 767px) {
+	.services {
+		background: linear-gradient(180deg, white 50%, #e9ecef 50%);
+		/* background-attachment: fixed; */
+	}
+ }
+
+ 
+/* Animation */
+.anim-typewriter{
+	animation: typewriter 4s steps(44) 1s 1 normal both,
+			   blinkTextCursor 500ms steps(44) infinite normal;
+  }
+  @keyframes typewriter{
+	from{width: 0;}
+	to{width: 24em;}
+  }
+  @keyframes blinkTextCursor{
+	from{border-right-color: rgba(255,255,255,.75);}
+	to{border-right-color: transparent;}
+  }
+
+  .line-1{
+    position: center;
+    top: 50%;  
+    width: 24em;
+    margin: 0 ;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+ 
+ /* END OF MEDIA QUERIES */
+ 

@@ -1,0 +1,32 @@
+Google Fonts
+font-family: 'Arbutus Slab', serif;
+font-family: 'Arvo', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Noto Sans JP', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Source Serif Pro', serif;
+
+    font-family: 'Castoro', serif;
+
+    font-family: 'Merriweather', serif;
+
+    font-family: 'Montserrat', sans-serif;
+
+    font-family: 'Open Sans', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Roboto Slab', serif;
+
+
+
+Font Awesome Icons    
+<i class="fab fa-facebook-f"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>

@@ -1,0 +1,44 @@
+:root {
+
+	--white: #ffffffff;
+	--cultured: #e9ecefff;
+	--copperRed: #d4674cff;
+	--international-orange-golden-gate-bridge: #bb4430ff;
+	--black: #000000ff;
+}
+
+/* TEXT COLOUR */
+.text-black {
+	color: var(--black);
+}
+.text-white {
+	color: var(--white);
+}
+
+.text-internationalOrange {
+	color: var(--international-orange-golden-gate-bridge);
+}
+
+
+/* BACKGROUNDS */
+.bg-black {
+	background-color: var(--black);
+}
+.bg-copperRed {
+	background-color: var(--copperRed);
+}
+.bg-cultured {
+	background-color: var(--cultured);
+}
+.bg-internationalOrange {
+	background-color: var(--international-orange-golden-gate-bridge);
+}
+.bg-trans {
+	background: rgba(233, 236, 239, 0.7);
+	/* background: rgba(222, 226, 230, 0.7); */
+}
+
+.bg-none {
+	background-color: transparent;
+}
+
